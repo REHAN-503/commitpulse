@@ -1,4 +1,3 @@
-
 export function trackUser(name: string) {
   const payload = JSON.stringify({ username: name });
   // sendBeacon is truly fire-and-forget — it doesn't block navigation
